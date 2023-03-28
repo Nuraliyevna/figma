@@ -1,0 +1,40 @@
+body{padding: 0;
+margin: 0;
+box-sizing: border-box;
+    .image{
+        width: 60px;
+    }
+     .carousel img{
+        filter: brightness(50%);
+     }
+    .katalog{
+        width: 100%;
+        height: 100px;
+        text-align: center;
+    }
+    .cards{
+        display: flex;
+        flex-wrap: wrap;
+        .card{
+            margin-left: 150px !important;
+            border: none;
+        }
+    }
+    .maqola{
+            width: 100%;
+            height: 100px;
+            text-align: center;
+        }
+
+        .card2{
+            display: flex;
+            .card{
+                width: 300px;
+            }
+        }
+
+        .col-9{
+            position: relative;
+            left: 50px;
+        }
+}
